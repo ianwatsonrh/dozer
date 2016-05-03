@@ -14,9 +14,19 @@
     <json library="Jackson" id="myjson"/>
     <bindy type="Csv" classType="org.acme.Customer" id="csv"/>
   </dataFormats>
+  
+  <onException>
+  	<exception>java.lang.IllegalArgumentException</exception>
+  	<to uri="{{fileError}}"/>
+  </onException>
+  
   <route>
     <from uri="{{fileInput}}"/>
-    <log message="&gt;&gt; Body is -&gt; ${body}"/>
+    <split>
+      <tokenize token="\n"/>
+    	<to ref="transform"/>
+  		<to uri="{{fileOutput}}"/>
+    </split>
   </route>
 </camelContext>
 </beans>
