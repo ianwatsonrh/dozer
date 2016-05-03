@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.fuse.usecase.TransformationTest" time="1.895" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ianwatson/camelfoundations/skeleton/usecase-1/routing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ianwatson/camelfoundations/skeleton/usecase-1/routing"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/k3/r2n35f_14wb52589263tz8rw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="ECLIPSE_PROCESS_NAME" value="&apos;Local Camel Context&apos;"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ianwatson/camelfoundations/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5603461744686821496.tmp"/>
+    <property name="maven.test.skip" value="false"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ianwatson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ianwatson"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ianwatson"/>
+    <property name="java.class.path" value="/Applications/jbdevstudio/studio/jbdevstudio.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package org.apache.camel:camel-maven-plugin:run -Dcamel.fileApplicationContextUri=file:/Users/ianwatson/camelfoundations/skeleton/usecase-1/routing/src/main/resources/META-INF/spring/camel-context.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="/Users/ianwatson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/ianwatson/camelfoundations/skeleton/usecase-1/routing/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="org.apache.camel.jmx.createRmiConnector" value="True"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="camel.fileApplicationContextUri" value="file:/Users/ianwatson/camelfoundations/skeleton/usecase-1/routing/src/main/resources/META-INF/spring/camel-context.xml"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="transform" classname="org.fuse.usecase.TransformationTest" time="1.81">
+    <failure message="mock://transform-test-output Body of message: 0. Expected: &lt;x&gt; but was: &lt;{&quot;company&quot;:{&quot;name&quot;:&quot;Rotobots&quot;,&quot;geo&quot;:null,&quot;active&quot;:false},&quot;contact&quot;:null}&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: mock://transform-test-output Body of message: 0. Expected: <x> but was: <{"company":{"name":"Rotobots","geo":null,"active":false},"contact":null}>
+	at org.fuse.usecase.TransformationTest.transform(TransformationTest.java:28)
+]]></failure>
+    <system-out><![CDATA[main INFO [org.fuse.usecase.TransformationTest] - ********************************************************************************
+main INFO [org.fuse.usecase.TransformationTest] - Testing: transform(org.fuse.usecase.TransformationTest)
+main INFO [org.fuse.usecase.TransformationTest] - ********************************************************************************
+main INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13deb50e: startup date [Tue May 03 13:40:34 BST 2016]; root of context hierarchy
+main INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/spring/camel-context.xml]
+main INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Overriding bean definition for bean 'transform': replacing [Generic bean: class [org.apache.camel.spring.CamelEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.apache.camel.spring.CamelEndpointFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+main INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@74f6c5d8: defining beans [properties,transform,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+main INFO [org.apache.camel.impl.converter.DefaultTypeConverter] - Loaded 183 type converters
+main INFO [org.apache.camel.spring.SpringCamelContext] - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is starting
+main INFO [org.apache.camel.management.ManagedManagementStrategy] - JMX is enabled
+main INFO [org.dozer.config.GlobalSettings] - Trying to find Dozer configuration file: dozer.properties
+main WARN [org.dozer.config.GlobalSettings] - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+main INFO [org.apache.camel.component.dozer.DozerComponent] - Configuring GlobalSettings to enable EL
+main INFO [org.dozer.DozerInitializer] - Initializing Dozer. Version: 5.5.0, Thread Name: main
+main INFO [org.dozer.jmx.JMXPlatformImpl] - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+main INFO [org.dozer.jmx.JMXPlatformImpl] - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+main INFO [org.dozer.DozerBeanMapper] - Initializing a new instance of dozer bean mapper.
+main INFO [org.apache.camel.component.dozer.DozerEndpoint] - Loading Dozer mapping file csv2json.xml.
+main INFO [org.apache.camel.spring.SpringCamelContext] - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+main INFO [org.apache.camel.spring.SpringCamelContext] - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+main INFO [org.apache.camel.component.file.FileEndpoint] - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+main INFO [org.apache.camel.component.file.FileEndpoint] - Using default memory based idempotent repository with cache max size: 1000
+main INFO [org.apache.camel.spring.SpringCamelContext] - Route: route1 started and consuming from: Endpoint[file://src/data/inbox?fileName=customers.csv&noop=true]
+main INFO [org.apache.camel.spring.SpringCamelContext] - Route: route2 started and consuming from: Endpoint[direct://transform-test-input]
+main INFO [org.apache.camel.spring.SpringCamelContext] - Total 2 routes, of which 2 is started.
+main INFO [org.apache.camel.spring.SpringCamelContext] - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) started in 0.299 seconds
+main INFO [route2] - Before transformation:
+ Rotobots,NA,true,Bill,Smith,100 N Park Ave.,Phoenix,AZ,85017,602-555-1100
+main INFO [org.apache.camel.component.jackson.JacksonDataFormat] - Registering module: com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule@2e27d72f
+main INFO [route2] - After transformation:
+ {"company":{"name":"Rotobots","geo":null,"active":false},"contact":null}
+main INFO [org.apache.camel.component.mock.MockEndpoint] - Asserting: Endpoint[mock://transform-test-output] is satisfied
+main INFO [org.fuse.usecase.TransformationTest] - ********************************************************************************
+main INFO [org.fuse.usecase.TransformationTest] - Testing done: transform(org.fuse.usecase.TransformationTest)
+main INFO [org.fuse.usecase.TransformationTest] - Took: 0.201 seconds (201 millis)
+main INFO [org.fuse.usecase.TransformationTest] - ********************************************************************************
+main INFO [org.apache.camel.spring.SpringCamelContext] - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutting down
+main INFO [org.apache.camel.impl.DefaultShutdownStrategy] - Starting to graceful shutdown 2 routes (timeout 10 seconds)
+Camel (camel-1) thread #1 - ShutdownTask INFO [org.apache.camel.impl.DefaultShutdownStrategy] - Route: route2 shutdown complete, was consuming from: Endpoint[direct://transform-test-input]
+Camel (camel-1) thread #1 - ShutdownTask INFO [org.apache.camel.impl.DefaultShutdownStrategy] - Route: route1 shutdown complete, was consuming from: Endpoint[file://src/data/inbox?fileName=customers.csv&noop=true]
+main INFO [org.apache.camel.impl.DefaultShutdownStrategy] - Graceful shutdown of 2 routes completed in 0 seconds
+main INFO [org.apache.camel.spring.SpringCamelContext] - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) uptime 0.512 seconds
+main INFO [org.apache.camel.spring.SpringCamelContext] - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutdown in 0.007 seconds
+main INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Closing org.springframework.context.support.ClassPathXmlApplicationContext@13deb50e: startup date [Tue May 03 13:40:34 BST 2016]; root of context hierarchy
+main INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@74f6c5d8: defining beans [properties,transform,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+]]></system-out>
+  </testcase>
+</testsuite>
