@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.fuse.usecase.TransformationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.895 sec <<< FAILURE! - in org.fuse.usecase.TransformationTest
-transform(org.fuse.usecase.TransformationTest)  Time elapsed: 1.81 sec  <<< FAILURE!
-java.lang.AssertionError: mock://transform-test-output Body of message: 0. Expected: <x> but was: <{"company":{"name":"Rotobots","geo":null,"active":false},"contact":null}>
-	at org.fuse.usecase.TransformationTest.transform(TransformationTest.java:28)
-
